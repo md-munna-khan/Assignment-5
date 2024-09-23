@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment-5</title>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css" rel="stylesheet" type="text/css" />
+<script src="https://cdn.tailwindcss.com"></script>
+
+<script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            clifford: '',
+            'arrow-primary': '#B4F461',
+          }
+        }
+      }
+    } 
+    </script>
+</head>
+<body>
+ 
+    
+<header class="container mx-auto py-4">
+       <!-- navbar -->
+    <div class="navbar bg-base-100 bg-gray-100">
+        <div class="navbar-start">
+         
+          <a class="btn btn-ghost text-xl font-bold bg-arrow-primary ">Blog</a>
+        </div>
+
+        <div class="inline-flex navbar-center space-x-2">
+          <img src="./assets/logo.png" alt="">
+          <span class="font-bold">Donate Bangladesh</span>
+        </div>
+       
+        <div class="navbar-end space-x-2">
+          <!-- <a class="btn">Button</a> -->
+          <img src="./assets/coin.png" alt="">
+          <span class="text-gray-700 font-semibold">5400 BDT</span>
+        </div>
+      </div>
+
+      <!-- button -->
+       <div class="pt-10 text-center space-x-4">
+        <button class="border rounded-md  font-semibold text-2xl bg-arrow-primary p-2">Donation</button>
+        <button class="border rounded-md  font-semibold text-2xl bg-arrow-primary p-2">History</button>
+       
+       </div>
+       <!-- Donate section -->
+        
+
+    </header>
+</body>
+</html>
