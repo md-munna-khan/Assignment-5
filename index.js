@@ -30,10 +30,11 @@ return
 
 
 const div = document.createElement('div');
+div.className = "bg-white p-4 rounded-lg border"
 div.innerHTML =`
 
-<p class ="font-bold border text-gray-500 p-4">${addMoney} Taka is Donated for Flood Relief in Feni,Bangladesh</p>
-<p class ="font-bold border text-gray-500 p-4"> Date:${new Date().toLocaleDateString()}</p>
+<p class ="font-bold  text-gray-500 ">${addMoney} Taka is Donated for Flood Relief in Feni,Bangladesh</p>
+<p class ="font-bold  text-gray-500 p-2"> Date:${new Date().toLocaleDateString()}</p>
 
 
 `;
@@ -51,6 +52,7 @@ const donationBtn = document.getElementById("btn-donation");
 historyBtn.addEventListener("click",function(){
     historyBtn.classList.add("text-black","bg-arrow-primary","border","rounded-md")
     historyBtn.classList.remove("text-gray-500")
+
     donationBtn.classList.remove("text-black","bg-arrow-primary","border","rounded-md")
     donationBtn.classList.add("text-gray-500")
 
@@ -99,9 +101,10 @@ return
 
 
 const div = document.createElement('div');
+div.className = "bg-white p-4 rounded-lg border"
 div.innerHTML =`
 
-<p class ="font-bold border text-gray-500 p-4">${addMoney} Taka is  Donate for Flood Relief in Feni,Bangladesh, Bangladesh</p>
+<p class ="font-bold border text-gray-500 ">${addMoney} Taka is  Donate for Flood Relief in Feni,Bangladesh, Bangladesh</p>
 <p class ="font-bold border text-gray-500 p-4"> Date:${new Date().toLocaleDateString()}</p>
 
 
@@ -117,21 +120,21 @@ modal.classList.remove("hidden")
 // history btn-2
 const historyBtn2 = document.getElementById("btn-history");
 const donationBtn2 = document.getElementById("btn-donation");
-historyBtn.addEventListener("click",function(){
-    historyBtn.classList.add("text-black","bg-arrow-primary","border","rounded-md")
-    historyBtn.classList.remove("text-gray-500")
-    donationBtn.classList.remove("text-black","bg-arrow-primary","border","rounded-md")
-    donationBtn.classList.add("text-gray-500")
+historyBtn2.addEventListener("click",function(){
+    historyBtn2.classList.add("text-black","bg-arrow-primary","border","rounded-md")
+    historyBtn2.classList.remove("text-gray-500")
+    donationBtn2.classList.remove("text-black","bg-arrow-primary","border","rounded-md")
+    donationBtn2.classList.add("text-gray-500")
 
     document.getElementById("donate-section-2").classList.add("hidden")
 })
 
-donationBtn.addEventListener("click",function(){
-donationBtn.classList.add(
+donationBtn2.addEventListener("click",function(){
+donationBtn2.classList.add(
 "text-black","bg-arrow-primary","border","rounded-md"
 
 );
-historyBtn.classList.remove(
+historyBtn2.classList.remove(
   "text-black","bg-arrow-primary","border","rounded-md"
 )
 document.getElementById("donate-section-2").classList.remove("hidden");
@@ -165,9 +168,10 @@ return
 
 
 const div = document.createElement('div');
+div.className = "bg-white p-4 rounded-lg border"
 div.innerHTML =`
 
-<p class ="font-bold border text-gray-500 p-4">${addMoney} Taka is Aid for Injured in the Quota Movement, Bangladesh</p>
+<p class ="font-bold border text-gray-500 ">${addMoney} Taka is Aid for Injured in the Quota Movement, Bangladesh</p>
 <p class ="font-bold border text-gray-500 p-4"> Date:${new Date().toLocaleDateString()}</p>
 
 
