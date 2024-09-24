@@ -1,4 +1,10 @@
 
+
+document.getElementById("blog").addEventListener("click",function(){
+  window.location.href ="/blog.html"
+})
+
+
 // js-section-1-start
 document.getElementById("btn-donate-money-1").addEventListener("click",function(){
 
@@ -39,7 +45,7 @@ modal.showModal();
 modal.classList.remove("hidden")
 })
 
-// history btn
+// history btn1
 const historyBtn = document.getElementById("btn-history");
 const donationBtn = document.getElementById("btn-donation");
 historyBtn.addEventListener("click",function(){
@@ -62,6 +68,8 @@ historyBtn.classList.remove(
 document.getElementById("donate-section-1").classList.remove("hidden");
 document.getElementById("transaction-history").classList.add("hidden")
 })
+
+
 //js-section-1-end
 
 
@@ -93,7 +101,7 @@ return
 const div = document.createElement('div');
 div.innerHTML =`
 
-<p class ="font-bold border text-gray-500 p-4">${addMoney} Taka is Donated for Flood Relief in Feni,Bangladesh</p>
+<p class ="font-bold border text-gray-500 p-4">${addMoney} Taka is  Donate for Flood Relief in Feni,Bangladesh, Bangladesh</p>
 <p class ="font-bold border text-gray-500 p-4"> Date:${new Date().toLocaleDateString()}</p>
 
 
@@ -106,7 +114,7 @@ modal.showModal();
 modal.classList.remove("hidden")
 })
 
-// history btn
+// history btn-2
 const historyBtn2 = document.getElementById("btn-history");
 const donationBtn2 = document.getElementById("btn-donation");
 historyBtn.addEventListener("click",function(){
@@ -159,7 +167,7 @@ return
 const div = document.createElement('div');
 div.innerHTML =`
 
-<p class ="font-bold border text-gray-500 p-4">${addMoney} Taka is Donated for Flood Relief in Feni,Bangladesh</p>
+<p class ="font-bold border text-gray-500 p-4">${addMoney} Taka is Aid for Injured in the Quota Movement, Bangladesh</p>
 <p class ="font-bold border text-gray-500 p-4"> Date:${new Date().toLocaleDateString()}</p>
 
 
@@ -172,7 +180,7 @@ modal.showModal();
 modal.classList.remove("hidden")
 })
 
-// history btn
+// history btn -3
 const historyBtn3 = document.getElementById("btn-history");
 const donationBtn3 = document.getElementById("btn-donation");
 historyBtn.addEventListener("click",function(){
@@ -195,4 +203,4 @@ historyBtn.classList.remove(
 document.getElementById("donate-section-3").classList.remove("hidden");
 document.getElementById("transaction-history").classList.add("hidden")
 })
-//js-section-2-end
+//js-section-3-end
