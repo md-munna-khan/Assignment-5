@@ -78,9 +78,9 @@ historyBtn.classList.add("text-gray-500")
 document.getElementById("transaction-history").classList.add("hidden")
 
 // Show donation sections
-document.getElementById("donate-section-1").classList.remove("hidden");
-document.getElementById("donate-section-2").classList.remove("hidden");
-document.getElementById("donate-section-3").classList.remove("hidden");
+document.getElementById("donate-section-1").classList.add("hidden");
+document.getElementById("donate-section-2").classList.add("hidden");
+document.getElementById("donate-section-3").classList.add("hidden");
 // document.getElementById("transaction-history").classList.add("hidden")
 });
 
