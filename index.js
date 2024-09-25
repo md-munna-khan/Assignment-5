@@ -10,6 +10,7 @@ document.getElementById("btn-donate-money-1").addEventListener("click",function(
 
 
     const addMoney = getInputFieldById("add-money-1")
+   
     const mainBalance = getTextFieldById("main-balance")
     const balance = getTextFieldById("account-balance-1");
 
