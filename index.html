@@ -30,10 +30,10 @@
 <header class=" py-4 bg-orange-50">
        <!-- navbar -->
       
-    <div class="navbar container mx-auto ">
+    <div class="navbar lg:container mx-auto ">
         <button id="blog" class="navbar-start">
          
-          <a class="btn btn-ghost text-xl font-bold bg-arrow-primary">Blog</a>
+          <a class="btn btn-ghost text-xl sm:text-sm font-bold bg-arrow-primary">Blog</a>
         </button>
 
         <div class="inline-flex navbar-center space-x-2">
@@ -46,7 +46,7 @@
          
        <button class="flex items-center gap-1  px-2 py-2 rounded-md">
         <img  src="./assets/coin.png" alt="">
-        <span id="main-balance"  class="inline-flex items-center space-x-2 "> 5000 </span> BDT
+        <span id="main-balance"  class="inline-flex items-center lg:space-x-2 "> 5000 </span> BDT
        </button>
                     
         </div> 
@@ -67,7 +67,7 @@
         <main class="container mx-auto py-4 ">
             <!-- section -1 -->
             <section class="p-6">
-        <div id="donate-section-1" class="lg:flex   justify-center p-6 border rounded-lg space-x-4 py-4  space-y-4" >
+        <div id="donate-section-1" class="hidden  lg:flex    justify-center p-6 border rounded-lg space-x-4 py-4  space-y-4" >
             <div class="mx-auto md:w-full  lg:w-full flex justify-center"> <img class="" src="./assets/noakhali.png" alt=""></div>
             <div class="space-y-8">
                 
@@ -95,7 +95,7 @@ placeholder="Write Donation Amount"
     
             <!-- section -2 -->
             <section class="p-6">
-        <div id="donate-section-2" class="lg:flex  justify-center p-6 border rounded-lg space-x-4 py-4  space-y-4" >
+        <div id="donate-section-2" class="hidden  lg:flex  justify-center p-6 border rounded-lg space-x-4 py-4  space-y-4" >
             <div class="mx-auto md:w-full  lg:w-full flex justify-center"> <img class="" src="./assets/feni.png" alt=""></div>
             <div class="space-y-8">
                 
@@ -123,7 +123,7 @@ placeholder="Write Donation Amount"
     <!-- section-2 end -->
             <!-- section -3 -->
             <section class="p-6">
-        <div id="donate-section-3" class="lg:flex  justify-center p-6 border rounded-lg space-x-4 py-4  space-y-4" >
+        <div id="donate-section-3" class=" hidden lg:flex  justify-center p-6 border rounded-lg space-x-4 py-4  space-y-4" >
             <div class="mx-auto md:w-full  lg:w-full flex justify-center"> <img class="" src="./assets/quota-protest.png" alt=""></div>
             <div class="space-y-8">
                 
@@ -170,7 +170,7 @@ placeholder="Write Donation Amount"
 
     <!-- Donation summary -->
 <div id="transaction-history" class="hidden">
-    <h2 class="font-bold">Donation Summary</h2>
+    <h2 class="font-bold text-4xl text-center sm:text-center">Donation Summary</h2>
     <div id="transaction-container"></div>
 
  
@@ -183,7 +183,7 @@ placeholder="Write Donation Amount"
 
     </main>
 
-    <footer class=" bg-orange-50 h-20"> </footer>
+    <footer class=" bg-white-50 h-20"> </footer>
     <script src="index.js"></script>
     <script src="utilities.js"></script>
     <script src="features.js"></script>
