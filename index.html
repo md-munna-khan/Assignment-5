@@ -8,19 +8,23 @@
 <script src="https://cdn.tailwindcss.com"></script>
 
 <script>
-    tailwind.config = {
-      theme: {
-        extend: {
-          colors: {
-            clifford: '',
-            'arrow-primary': '#B4F461',
-          }
-        }
-      }
-    } 
-    </script>
+  tailwind.config = {
+    theme: {
+      extend: {
+        colors: {
+          clifford: '',
+          'arrow-primary': '#B4F461',
+        },
+        fontFamily: {
+          lexend: ['Lexend', 'sans-serif'],
+        },
+      },
+    },
+    plugins: [],
+  };
+</script>
 </head>
-<body class="">
+<body class="font-lexend">
  
     <section class="sticky top-0 z-50 backdrop-blur-md ">
 <header class=" py-4 bg-orange-50">
